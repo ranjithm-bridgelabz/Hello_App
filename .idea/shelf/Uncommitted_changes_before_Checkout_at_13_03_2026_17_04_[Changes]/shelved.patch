@@ -1,0 +1,17 @@
+Index: demo/src/main/java/com/demo/HelloApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.demo;\r\n\r\npublic class HelloApp {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        // Default name\r\n        String name = \"World\";\r\n\r\n        // Check if a name is provided as a command-line argument\r\n        if (args.length > 0) {\r\n            name = args[0];   // Use the provided name\r\n        }\r\n\r\n        System.out.println(\"Hello, \" + name + \"!\");\r\n    }\r\n\r\n\r\n}\r\n
+===================================================================
+diff --git a/demo/src/main/java/com/demo/HelloApp.java b/demo/src/main/java/com/demo/HelloApp.java
+--- a/demo/src/main/java/com/demo/HelloApp.java	(revision dbe9cf3fdf694bd874e16a770ac4d097794fb52c)
++++ b/demo/src/main/java/com/demo/HelloApp.java	(date 1773399025401)
+@@ -1,6 +1,7 @@
+ package com.demo;
+ 
+-public class HelloApp {
++public class
++HelloApp {
+ 
+     public static void main(String[] args) {
+ 

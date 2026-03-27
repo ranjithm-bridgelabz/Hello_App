@@ -1,0 +1,17 @@
+Index: demo/src/main/java/com/demo/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.demo;\r\n\r\n/**\r\n * Hello world!\r\n */\r\npublic class App {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello World!\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/demo/src/main/java/com/demo/App.java b/demo/src/main/java/com/demo/App.java
+--- a/demo/src/main/java/com/demo/App.java	(revision 9a46b2f5f87f0cc2172664358ceebc9d21672b54)
++++ b/demo/src/main/java/com/demo/App.java	(date 1773828191997)
+@@ -5,6 +5,8 @@
+  */
+ public class App {
+     public static void main(String[] args) {
++
+         System.out.println("Hello World!");
++
+     }
+ }
